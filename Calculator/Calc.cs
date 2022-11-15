@@ -2,11 +2,15 @@
 
 namespace Calculator
 {
-    internal class Calc
+    public class Calc
     {
-        static void Main(string[] args)
+        public int Add(int x, int y)
         {
-            Console.WriteLine("Hello World!");
+            return x + y;
+        }
+        public int Multiply(int x, int y)
+        {
+            return x * y;
         }
     }
 }
